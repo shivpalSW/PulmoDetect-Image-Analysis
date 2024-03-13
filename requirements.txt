@@ -1,0 +1,19 @@
+tensorflow==2.12.0  # stable version
+pandas 
+gdown      # to download from google drive
+dvc
+mlflow==2.2.2
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2                # exception related fucntionality.substitute to the logging file
+pyYAML             # managing yaml file
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+-e .
