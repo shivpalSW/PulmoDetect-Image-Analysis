@@ -31,3 +31,6 @@ python script.py
 
 ### DagsHub Tracking UI
 ![alt text](image.png)
+
+### MLFLOW Tracking UI
+![alt text](image-1.png)
