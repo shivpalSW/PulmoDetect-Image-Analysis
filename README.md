@@ -28,3 +28,6 @@ export MLFLOW_TRACKING_PASSWORD=fd9835dc3730b9bbb51bd3649a76d8c3cbbe007f
 
 python script.py
 ```
+
+### DagHub Tracking UI
+![alt text](image.png)
