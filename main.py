@@ -9,7 +9,8 @@ from pulmoClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseMode
 from pulmoClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
 from pulmoClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
-
+import warnings
+warnings.filterwarnings("ignore")
 
 STAGE_NAME = "Data Ingestion stage"
 

@@ -5,7 +5,8 @@ from pulmoClassifier.constants import *   # * means Wildcard import
 from pulmoClassifier.utils.common import read_yaml, create_directories
 
 from pulmoClassifier.entity.config_entity import (DataIngestionConfig,
-PrepareBaseModelConfig,TrainingConfig,EvaluationConfig)                                         
+PrepareBaseModelConfig,TrainingConfig,EvaluationConfig)
+                                         
 
 
 class ConfigurationManager:
