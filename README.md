@@ -42,3 +42,5 @@ The input of VGG is set to an RGB image of 224x244 size. The average RGB value i
 ![alt text](image-3.png)
 VGG16 contains 16 layers and VGG19 contains 19 layers. A series of VGGs are exactly the same in the last three fully connected layers. The overall structure includes 5 sets of convolutional layers, followed by a MaxPool. The difference is that more and more cascaded convolutional layers are included in the five sets of convolutional layers.
 ![alt text](image-4.png)
+
+ - [VGG16 Architecture link](https://www.kaggle.com/code/blurredmachine/vggnet-16-architecture-a-complete-guide)
