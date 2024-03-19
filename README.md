@@ -35,6 +35,13 @@ python script.py
 ### MLFLOW Tracking UI
 ![alt text](img/image-1.png)
 
+
+### dvc commands used on gitbash & DVC DAG 
+1. dvc init
+2. dvc repro 
+3. dvc dag
+![alt text](img/image-5.png)
+
 ### VGGNet-16 Architecture
 The input of VGG is set to an RGB image of 224x244 size. The average RGB value is calculated for all images on the training set image, and then the image is input as an input to the VGG convolution network. A 3x3 or 1x1 filter is used, and the convolution step is fixed. . There are 3 VGG fully connected layers, which can vary from VGG11 to VGG19 according to the total number of convolutional layers + fully connected layers. The minimum VGG11 has 8 convolutional layers and 3 fully connected layers. The maximum VGG19 has 16 convolutional layers. +3 fully connected layers. In addition, the VGG network is not followed by a pooling layer behind each convolutional layer, or a total of 5 pooling layers distributed under different convolutional layers. The following figure is VGG Structure diagram:
 ![alt text](img/image-2.png)
