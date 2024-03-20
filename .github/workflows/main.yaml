@@ -1,9 +1,13 @@
 name: Trigger Jenkins Job
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
     
+#on:
+  #push:
+    #branches: [main]      # this code is for the branch push and automatically trigger bilding jobs on jenkins
+
+
 jobs:
   trigger:
     name: Build
